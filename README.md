@@ -18,6 +18,9 @@ Planetary Computer: The notebooks were run on the Microsoft Planetary Computer H
 
 QGIS: The QGIS project file can be opened and explored in QGIS software.
 
+### Code Order/Placement
+First, the raw AIS data is processed in the traj_splitting notebook. Then this enhanced and preprocessed dataset is used to conduct the EDA in the notebooks lateral_distributions and visualisations_and_bumptesting. In these two notebooks the data is also further processed to be able to conduct the comfirmatory analyses. 
+
 ### Disclaimer
 
 The raw AIS data used in this research is not publicly available due to its confidential nature and requires a SAS token from Rijkswaterstaat for access. However, the processed data and results presented in this repository can be used to understand the research findings and methodology.
